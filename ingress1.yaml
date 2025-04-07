@@ -13,8 +13,8 @@ metadata:
     alb.ingress.kubernetes.io/group.name: wordpress-group
 
     # Networking
-    alb.ingress.kubernetes.io/subnets: subnet-076b40e30bb7b79d5,subnet-0f6963df50c6b69e8
-    alb.ingress.kubernetes.io/security-groups: sg-007eec980dbe82770
+    alb.ingress.kubernetes.io/subnets: subnet-0fe9e447cf10b6c87,subnet-09018d2aebcdf7a22
+    alb.ingress.kubernetes.io/security-groups: sg-0e386628a3f9975e3
 
     # Listener and Healthcheck
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
